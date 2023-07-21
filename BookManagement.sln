@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagement", "BookManagement.csproj", "{98A4D8CF-A172-4853-8000-8D5CCAED2ABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagement.DAL", "..\BookManagement.DAL\BookManagement.DAL.csproj", "{2D16BB09-20A3-4FED-A6B8-2BA144EC367E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagement.BLL", "..\BookManagement.BLL\BookManagement.BLL.csproj", "{B76DBC5C-C4C4-4DD1-8DBF-67EDD0C69664}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagement.Entity", "..\BookManagement.Entity\BookManagement.Entity.csproj", "{3B1356DC-6218-4B5A-A7CB-9FA6CC0D42B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing Code", "Testing Code", "{1B3E9AF5-9FAC-4203-B827-55D17584BE39}"
+	ProjectSection(SolutionItems) = preProject
+		QRCodeTesting .txt = QRCodeTesting .txt
+		Testing Store Procedure in Entity .txt = Testing Store Procedure in Entity .txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98A4D8CF-A172-4853-8000-8D5CCAED2ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A4D8CF-A172-4853-8000-8D5CCAED2ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A4D8CF-A172-4853-8000-8D5CCAED2ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A4D8CF-A172-4853-8000-8D5CCAED2ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D16BB09-20A3-4FED-A6B8-2BA144EC367E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D16BB09-20A3-4FED-A6B8-2BA144EC367E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D16BB09-20A3-4FED-A6B8-2BA144EC367E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D16BB09-20A3-4FED-A6B8-2BA144EC367E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76DBC5C-C4C4-4DD1-8DBF-67EDD0C69664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76DBC5C-C4C4-4DD1-8DBF-67EDD0C69664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76DBC5C-C4C4-4DD1-8DBF-67EDD0C69664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76DBC5C-C4C4-4DD1-8DBF-67EDD0C69664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1356DC-6218-4B5A-A7CB-9FA6CC0D42B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1356DC-6218-4B5A-A7CB-9FA6CC0D42B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1356DC-6218-4B5A-A7CB-9FA6CC0D42B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1356DC-6218-4B5A-A7CB-9FA6CC0D42B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18C6D30F-8B0F-415D-8530-28A43CD12103}
+	EndGlobalSection
+EndGlobal
